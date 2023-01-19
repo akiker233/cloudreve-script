@@ -29,7 +29,7 @@ menu() {
     echo -e "
            Cloudreve.sh    |   Cloudreve 一键脚本
                    Powered By Akiker  ${Red_font_prefix}${VER}${Font_color_suffix}
-      bash <(curl -sL https://cdn.akiker.app/cloudreve.sh)
+      bash <(curl -sL https://raw.githubusercontents.com/akiker233/cloudreve-script/main/cloudreve.sh)
      ========================================================
       ${Green_font_prefix}1.${Font_color_suffix} 安装从机节点
       ${Green_font_prefix}2.${Font_color_suffix} 卸载从机节点
@@ -62,7 +62,7 @@ menu() {
 
 
 Install_app() {
-    bash <(curl -Ls https://cdn.akiker.app/cloudreve-install.sh)
+    bash <(curl -sL https://raw.githubusercontents.com/akiker233/cloudreve-script/main/cloudreve-install.sh)
 }
 Uninstall_app() {
     systemctl stop cloudreve
