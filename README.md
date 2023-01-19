@@ -1,5 +1,5 @@
 # Cloudreve-script
-A script about Cloudreve
+A script about Cloudreve.
 
 # How to use
 ``` bash
@@ -11,7 +11,7 @@ bash <(curl -sL https://fastly.jsdelivr.net/gh/akiker233/cloudreve-script@main/c
 ```
 
 # Note
-This script will install cloudreve and aria2c
+This script will install cloudreve and aria2c.
 
 # Thanks
 [@P3TERX](https://github.com/P3TERX)
